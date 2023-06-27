@@ -1,0 +1,57 @@
+.input{
+    width: 75%;
+    height: 20%;
+    background-color:  #2d545e;
+    margin-left: 11%;
+    margin-bottom: 3%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.input input{
+    margin-right: 9px;
+    width: 30%;
+    height: 25px;
+    border-radius: 15px;
+    border-color: transparent;
+}
+
+.input input:focus{
+    outline: none;
+}
+
+.input button{
+    border-radius: 15px;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.task{
+    width: 75%;
+    height: 70%;
+    margin-left: 11%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.disTask{
+    border-radius: 15px;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-bottom: 10px;
+}
+
+.disTask button{
+    text-align: center;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    border-radius: 16px;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
