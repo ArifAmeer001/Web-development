@@ -47,3 +47,11 @@ a{
 .ele:focus{
     outline: none;
 }
+
+#dis-card{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
